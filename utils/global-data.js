@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Govind JJ';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Next.js Blog Theme';
+    : 'DevOps Engineer | Cloud Architect | Open Source Enthusiast';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
